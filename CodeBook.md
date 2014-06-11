@@ -20,3 +20,4 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 ## Main
 
 <-->ssss
+![plot of chunk plot1.png](PLOTS/plot1.png)
