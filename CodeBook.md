@@ -35,34 +35,30 @@ In order to see through the Garbles data,  I have used R to read the data into a
 
 These are the files needing to be passed.
 
-Train:
-subject_train.txt
-X_train.txt
-y_train.txt
-
-Test:
-subject_test.txt
-X_test.txt
-y_test.txt
-
+ 
 <dl>
   <dt>Train:</dt>
-  <dd>subject_train.txt
-      X_train.txt
-      y_train.txt</dd>
+  <dd><p>subject_train.txt</p>
+      <p>X_train.txt</p>
+      <p>y_train.txt</p></dd>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt>Test:</dt>
+  <dd><p>subject_test.txt</p>
+      <p>X_test.txt</p>
+      <p>y_test.txt</p></dd>
+
+
+
+<p>Data from y_train.txt after it was passed through R.</p>
+
+<p>"V1"</p>
+<p>"1" 5</p>
+<p>"2" 5</p>
+<p>"3" 5</p>
+<p>"4" 5</p>
+<p>"5" 5</p>
 </dl>
 
-
-Data from y_train.txt after it was passed through R.
-"V1"
-"1" 5
-"2" 5
-"3" 5
-"4" 5
-"5" 5
 
 ## 3.)  Investigate
 
