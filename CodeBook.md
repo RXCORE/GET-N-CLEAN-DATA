@@ -45,6 +45,16 @@ subject_test.txt
 X_test.txt
 y_test.txt
 
+<dl>
+  <dt>Train:</dt>
+  <dd>subject_train.txt
+      X_train.txt
+      y_train.txt</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
 
 Data from y_train.txt after it was passed through R.
 "V1"
