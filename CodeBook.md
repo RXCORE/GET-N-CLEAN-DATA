@@ -34,12 +34,13 @@ Based on this, there isnt any use as of the moment for these data files.
 In order to see through the Garbles data,  I have used R to read the data into a data table, after which is written back to a physical file. 
 
 These are the files needing to be passed.
-Train
+
+Train:
 subject_train.txt
 X_train.txt
 y_train.txt
 
-Test
+Test:
 subject_test.txt
 X_test.txt
 y_test.txt
@@ -53,12 +54,12 @@ Data from y_train.txt after it was passed through R.
 "4" 5
 "5" 5
 
-### 3.)  Investigate
+## 3.)  Investigate
 
 After the data had been processed, It is now time to Identify what kind of data are in those files.
 Lets start.
 
-subject_train.txt
+### subject_train.txt
 How may rows?
 nrow(train_subject)
 7352
@@ -74,14 +75,14 @@ length(unique(train_subject[,1]))
 Summary:  
 Based on this there are 21 individual subjects, and they are spread through the 7352.
 TRAIN
-1  1 - 347
+1   1 - 347
 2
-3 348 - 688
+3   348 - 688
 4
-5 689 - 990
-6 991 - 1315
-7 1316 - 1623
-8 1624 - 1904
+5   689 - 990
+6   991 - 1315
+7   1316 - 1623
+8   1624 - 1904
 9 
 10
 11 1905 - 2220
@@ -105,7 +106,11 @@ TRAIN
 29 6626 - 6969
 30 6970 - 7352
 
-
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
 
 activity_labels.txt
 
