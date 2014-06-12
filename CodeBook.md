@@ -65,7 +65,7 @@ nrow(train_subject)
 7352
 
 List the unique values?
-unique(train_subject[,1])
+<p>unique(train_subject[,1])</p>
 1  3  5  6  7  8 11 14 15 16 17 19 21 22 23 25 26 27 28 29 30
 
 How many unique values are there?
