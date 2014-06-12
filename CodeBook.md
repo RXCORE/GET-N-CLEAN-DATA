@@ -60,21 +60,25 @@ After the data had been processed, It is now time to Identify what kind of data 
 Lets start.
 
 ### subject_train.txt
-How may rows?
-nrow(train_subject)
-7352
+<p>How may rows?</p>
+<p>nrow(train_subject)</p>
+<p>7352</p>
 
-List the unique values?
+
+<p>List the unique values?</p>
 <p>unique(train_subject[,1])</p>
-1  3  5  6  7  8 11 14 15 16 17 19 21 22 23 25 26 27 28 29 30
+<p>1  3  5  6  7  8 11 14 15 16 17 19 21 22 23 25 26 27 28 29 30</p>
 
-How many unique values are there?
-length(unique(train_subject[,1]))
-21
 
-Summary:  
+<p>How many unique values are there?</p>
+<p>length(unique(train_subject[,1]))</p>
+<p>21</p>
+
+
+<p>Summary:</p>
 Based on this there are 21 individual subjects, and they are spread through the 7352.
-TRAIN
+
+TRAIN:
 <ol>
 <li>  1 - 347</li>
 <li>   </li>
