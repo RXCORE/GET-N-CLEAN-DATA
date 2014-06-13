@@ -214,4 +214,10 @@ TRAIN:
 | 559 | angle(X,gravityMean) | 
 | 560 | angle(Y,gravityMean) | 
 | 561 | angle(Z,gravityMean) | 
-
+<p>  </p>
+<p>Summary:</p>
+<p>Data from features.txt has set of records of 561 and 2 attributes.</p>
+<p>
+Looks like this are the lables for X_train.txt, since attribute count from X_train is 561 as well</p>
+<p>  
+</p>
