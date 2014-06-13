@@ -31,7 +31,7 @@ Based on this, there isnt any use as of the moment for these data files.
 
 ### 2.)  Processing the Files
 
-In order to see through the Garbles data,  I have used R to read the data into a data table, after which is written back to a physical file. 
+In order to see through the Garbles data,  I have used R to read the data into a data table, after which is written back to a physical file. ## note to self: put link to r_analysis.r  for loading instructions to R
 
 These are the files needing to be passed.
 
@@ -117,8 +117,9 @@ TRAIN:
 <li> 6626 - 6969</li>
 <li> 6970 - 7352</li>
 </ol>
-
- 
+<p> </p>
+<p>The Attributes are not labled.</p>
+ <p>  </p>
 ### X_train.txt
 <p>How many rows  are there?</p>
 <p> nrow(train_x)</p>
@@ -128,7 +129,7 @@ TRAIN:
 <p> ncol(train_x)</p>
 <p> 561</p>
 
-<p> Lets Look at this data</P>
+<p>Lets Look at this data</P>
 <p>train_x[c(1:5), c(1:3, 559:561)]</p>
 
 | X | V1 |  V2 | V3 | ... | V559 | V560 | V561 | 
@@ -144,29 +145,38 @@ TRAIN:
 <p>Looks like this are the Measurements taken from the 21 individual subjects</p>
 <p>The Attributes are not labled.</p>
 
-
+<p>  </p>
 ### y_train.txt
 <p>How many rows  are there?</p>
 <p> nrow(train_y)</p>
 <p> 7352</p>
 
- 
- <p>How many columns are there?</p>
+<p>  </p> 
+<p>How many columns are there?</p>
 <p> ncol(train_y)</p>
 <p> 1</p>
 
-
+<p>  </p>
 <p>How many unique values are there?</p>
 <p> unique(train_y[,1])</p>
 <p> 5 4 6 1 3 2</p>
-
+<p>  </p>
 
 <p>Summary:</p>
 <p>Data from y_train.txt has 7352 records and 1 attribute.</p>
 <p>Data has small number of unique values.</p>
-
-
+<p>The Attributes are not labled.</p>
+<p>This can be related to the 21 individual subjects</p>
+<p>  </p>
 ### activity_labels.txt
+<p>How many rows  are there?</p>
+<p>nrow(activity_labels)</p>
+<p>6</p>
+<p>  </p>
+<p>ncol(activity_labels)</p>
+<p>2</p>
+<p>  </p>
+<p>activity_labels</p>
 | Code | Activity Label |
 |----------|:-------------:|
 | 1 | WALKING |
@@ -175,8 +185,10 @@ TRAIN:
 | 4 | SITTING |
 | 5 | STANDING |
 | 6 | LAYING |
+<p>  </p>
+<p>Summary:</p>
+<p>Data from activity_labels.txt has a very small set of records of 6 and 2 attributes.</p>
+<p>Looks like this might be a referenced value for the y_train.txt, since the unique values from y_train are 1,2,3,4,5, and 6.</p>
 
-
-
-
+##
 <p>  </p>
