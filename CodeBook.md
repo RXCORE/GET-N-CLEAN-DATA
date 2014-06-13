@@ -48,8 +48,8 @@ These are the files needing to be passed.
       <p>y_test.txt</p></dd>
 
 
-
-<p>Data from y_train.txt after it was passed through R.</p>
+<p> </p>
+<p>This is what data looks like (y_train.txt) after it was passed through R.</p>
 
 <p>"V1"</p>
 <p>"1" 5</p>
@@ -62,7 +62,7 @@ These are the files needing to be passed.
 
 ## 3.)  Investigate
 
-After the data had been processed, It is now time to Identify what kind of data are in those files.
+After the data had been processed, the data is meaningful.  It is now time to Identify what kind of data are in those files.
 Lets start.
 
 ### subject_train.txt
@@ -82,8 +82,8 @@ Lets start.
 
 
 <p>Summary:</p>
-Based on this there are 21 individual subjects, and they are spread through the 7352.
-
+<p>This file subject_train.txt Holds the information about the Subjects. </p>
+<p>Based on this there are 21 individual subjects, and they are spread through the 7352.</p>
 TRAIN:
 <ol>
 <li>  1 - 347</li>
