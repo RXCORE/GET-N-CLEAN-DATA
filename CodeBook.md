@@ -204,8 +204,9 @@ TRAIN:
 <p>  </p>
 <p>Looking at the data set</p>
 <p>feature_names[c(1:3, 559:561),]</p>
-|----------|:-------------|
+
 | V1 | V2 | 
+|----------|:-------------|
 | 1 | tBodyAcc-mean()-X | 
 | 2 | tBodyAcc-mean()-Y | 
 | 3 | tBodyAcc-mean()-Z | 
