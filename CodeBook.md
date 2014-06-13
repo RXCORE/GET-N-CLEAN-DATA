@@ -66,7 +66,7 @@ After the data had been processed, the data is meaningful.  It is now time to Id
 Lets start.
 
 ### subject_train.txt
-<p>How may rows?</p>
+<p>How many rows?</p>
 <p>nrow(train_subject)</p>
 <p>7352</p>
 
@@ -139,8 +139,31 @@ TRAIN:
 | 4 | 0.2791739 | -0.02620065 | -0.1232826 |... |  -0.8486494 | 0.1819348 | -0.04766318 | 
 | 5 | 0.2766288 | -0.01656965 | -0.1153619 |... |  -0.8478653 | 0.1851512 | -0.04389225 | 
 
+<p>Summary:</p>
+<p>Data from X_train.txt Has 7352 records and 561 attributes.</p>
+<p>Looks like this are the Measurements taken from the 21 individual subjects</p>
+<p>The Attributes are not labled.</p>
 
 
+### y_train.txt
+<p>How many rows  are there?</p>
+<p> nrow(train_y)</p>
+<p> 7352</p>
+
+ 
+ <p>How many columns are there?</p>
+<p> ncol(train_y)</p>
+<p> 1</p>
+
+
+<p>How many unique values are there?</p>
+<p> unique(train_y[,1])</p>
+<p> 5 4 6 1 3 2</p>
+
+
+<p>Summary:</p>
+<p>Data from y_train.txt has 7352 records and 1 attribute.</p>
+<p>Data has small number of unique values.</p>
 
 
 ### activity_labels.txt
@@ -156,4 +179,4 @@ TRAIN:
 
 
 
-
+<p>  </p>
