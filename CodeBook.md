@@ -176,6 +176,7 @@ TRAIN:
 <p>ncol(activity_labels)</p>
 <p>2</p>
 <p>  </p>
+<p>Looking at the data set</p>
 <p>activity_labels</p>
 | Code | Activity Label |
 |----------|:-------------:|
@@ -201,8 +202,8 @@ TRAIN:
 <p>ncol(features_names)</p>
 <p>2</p>
 <p>  </p>
-
-| feature_names[c(1:3, 559:561),] | 
+<p>Looking at the data set</p>
+<p>feature_names[c(1:3, 559:561),]</p>
 |----------|:-------------|
 | V1 | V2 | 
 | 1 | tBodyAcc-mean()-X | 
