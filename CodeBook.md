@@ -189,6 +189,27 @@ TRAIN:
 <p>Summary:</p>
 <p>Data from activity_labels.txt has a very small set of records of 6 and 2 attributes.</p>
 <p>Looks like this might be a referenced value for the y_train.txt, since the unique values from y_train are 1,2,3,4,5, and 6.</p>
-
-##
 <p>  </p>
+
+### features.txt
+<p> Based on the instructions from features_info.txt, "The complete list of variables of each feature vector" can be found in features.txt.  Loaded this as well.</p> 
+<p>  </p>
+<p>How many rows  are there?</p>
+<p>nrow(features_names)</p>
+<p>561</p>
+<p>  </p>
+<p>ncol(features_names)</p>
+<p>2</p>
+<p>  </p>
+
+| feature_names[c(1:3, 559:561),] | 
+|----------|:-------------|
+| V1 | V2 | 
+| 1 | tBodyAcc-mean()-X | 
+| 2 | tBodyAcc-mean()-Y | 
+| 3 | tBodyAcc-mean()-Z | 
+| … | … | 
+| 559 | angle(X,gravityMean) | 
+| 560 | angle(Y,gravityMean) | 
+| 561 | angle(Z,gravityMean) | 
+
