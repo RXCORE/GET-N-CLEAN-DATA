@@ -85,9 +85,9 @@ Lets start.
 <p>This file subject_train.txt Holds the information about the Subjects. </p>
 <p>Based on this there are 21 individual subjects, and they are spread through the 7352.</p>
 TRAIN:
-<ol>
+
 |INDIVIDUALS|RECORD RANGE|
-|---|:---------:|
+|:--:|:---------:|
 | 1 |  1 - 347 | 
 | 2 |  NULL  | 
 | 3 |  348 - 688 | 
@@ -119,7 +119,6 @@ TRAIN:
 | 29 | 6626 - 6969 | 
 | 30 | 6970 - 7352 | 
 
-</ol>
 <p> </p>
 <p>The Attributes are not labled.</p>
  <p>  </p>
