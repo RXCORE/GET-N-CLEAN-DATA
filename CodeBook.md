@@ -169,7 +169,7 @@ TRAIN:
 <p>Data from y_train.txt has 7352 records and 1 attribute.</p>
 <p>Data has small number of unique values.</p>
 <p>The Attributes are not labled.</p>
-<p>This can be related to the 21 individual subjects</p>
+<p>This can be related to the 21 individual subjects for the activity type</p>
 <p>  </p>
 ### activity_labels.txt
 <p>How many rows  are there?</p>
@@ -227,7 +227,7 @@ Looks like this are the lables for X_train.txt, since attribute count from X_tra
 [https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md](https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md) 
 
 
---------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
 
 ## TEST FILES
 
@@ -251,7 +251,7 @@ Looks like this are the lables for X_train.txt, since attribute count from X_tra
 <p>This file subject_test.txt Holds the information about the Subjects. </p>
 <p>Based on this there are 9 individual subjects, and they are spread through the 2947.</p>
 
-test:
+Test:
 
 |INDIVIDUALS|RECORD RANGE|
 |:--:|:---------:|
@@ -296,7 +296,7 @@ test:
 ### X_test.txt
 <p>How many rows  are there?</p>
 <p> nrow(test_x)</p>
-<p> 7352</p>
+<p> 2947</p>
 
 <p>How many columns are there?</p>
 <p> ncol(test_x)</p>
@@ -307,14 +307,15 @@ test:
 
 | X | V1 |  V2 | V3 | ... | V559 | V560 | V561 | 
 |----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| 1 | 0.2885845 | -0.02029417 | -0.1329051 |... |  -0.8412468 | 0.1799406 | -0.05862692 | 
-| 2 | 0.2784188 | -0.01641057 | -0.1235202 |... |  -0.8447876 | 0.1802889 | -0.05431672 | 
-| 3 | 0.2796531 | -0.01946716 | -0.1134617 |... |  -0.8489335 | 0.1806373 | -0.04911782 | 
-| 4 | 0.2791739 | -0.02620065 | -0.1232826 |... |  -0.8486494 | 0.1819348 | -0.04766318 | 
-| 5 | 0.2766288 | -0.01656965 | -0.1153619 |... |  -0.8478653 | 0.1851512 | -0.04389225 | 
+| 1 | 0.2571778 | -0.02328523 | -0.01465376 |... | -0.7200093 | 0.2768010 | -0.05797830 | 
+| 2 | 0.2860267 | -0.01316336 | -0.11908252 |... | -0.6980908 | 0.2813429 | -0.08389801 | 
+| 3 | 0.2754848 | -0.02605042 | -0.11815167 |... | -0.7027715 | 0.2800830 | -0.07934620 | 
+| 4 | 0.2702982 | -0.03261387 | -0.11752018 |... | -0.6989538 | 0.2841138 | -0.07710800 | 
+| 5 | 0.2748330 | -0.02784779 | -0.12952716 |... | -0.6922450 | 0.2907220 | -0.07385681 | 
+
 
 <p>Note:</p>
-<p>Data from X_test.txt Has 7352 records and 561 attributes.</p>
+<p>Data from X_test.txt Has 2947 records and 561 attributes.</p>
 <p>Looks like this are the Measurements taken from the 21 individual subjects</p>
 <p>The Attributes are not labled.</p>
 
@@ -322,7 +323,7 @@ test:
 ### y_test.txt
 <p>How many rows  are there?</p>
 <p> nrow(test_y)</p>
-<p> 7352</p>
+<p> 2947</p>
 
 <p>  </p> 
 <p>How many columns are there?</p>
@@ -336,10 +337,10 @@ test:
 <p>  </p>
 
 <p>Note:</p>
-<p>Data from y_test.txt has 7352 records and 1 attribute.</p>
+<p>Data from y_test.txt has 2947 records and 1 attribute.</p>
 <p>Data has small number of unique values.</p>
 <p>The Attributes are not labled.</p>
-<p>This can be related to the 21 individual subjects</p>
+<p>This can be related to the 9 individual subjects for the activity type</p>
 <p>  </p>
 
 
