@@ -64,6 +64,7 @@ These are the files needing to be passed.
 
 After the data had been processed, the data is meaningful.  It is now time to Identify what kind of data are in those files.
 Lets start.
+## TRAIN FILES
 
 ### subject_train.txt
 <p>How many rows?</p>
@@ -142,7 +143,7 @@ TRAIN:
 | 4 | 0.2791739 | -0.02620065 | -0.1232826 |... |  -0.8486494 | 0.1819348 | -0.04766318 | 
 | 5 | 0.2766288 | -0.01656965 | -0.1153619 |... |  -0.8478653 | 0.1851512 | -0.04389225 | 
 
-<p>Summary:</p>
+<p>Note:</p>
 <p>Data from X_train.txt Has 7352 records and 561 attributes.</p>
 <p>Looks like this are the Measurements taken from the 21 individual subjects</p>
 <p>The Attributes are not labled.</p>
@@ -164,7 +165,7 @@ TRAIN:
 <p> 5 4 6 1 3 2</p>
 <p>  </p>
 
-<p>Summary:</p>
+<p>Note:</p>
 <p>Data from y_train.txt has 7352 records and 1 attribute.</p>
 <p>Data has small number of unique values.</p>
 <p>The Attributes are not labled.</p>
@@ -189,7 +190,7 @@ TRAIN:
 | 5 | STANDING |
 | 6 | LAYING |
 <p>  </p>
-<p>Summary:</p>
+<p>Note:</p>
 <p>Data from activity_labels.txt has a very small set of records of 6 and 2 attributes.</p>
 <p>Looks like this might be a referenced value for the y_train.txt, since the unique values from y_train are 1,2,3,4,5, and 6.</p>
 <p>  </p>
@@ -217,12 +218,128 @@ TRAIN:
 | 560 | angle(Y,gravityMean) | 
 | 561 | angle(Z,gravityMean) | 
 <p>  </p>
-<p>Summary:</p>
+<p>Note:</p>
 <p>Data from features.txt has set of records of 561 and 2 attributes.</p>
 <p>
 Looks like this are the lables for X_train.txt, since attribute count from X_train is 561 as well</p>
 <p>  
 </p>
-[https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md](https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md)
+[https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md](https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md) 
 
-https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md
+
+--------------------------
+
+## TEST FILES
+
+### subject_test.txt
+<p>How many rows?</p>
+<p>nrow(test_subject)</p>
+<p>2947</p>
+
+
+<p>List the unique values?</p>
+<p>unique(test_subject[,1])</p>
+<p>2  4  9 10 12 13 18 20 24</p>
+
+
+<p>How many unique values are there?</p>
+<p>length(unique(test_subject[,1]))</p>
+<p>9</p>
+
+
+<p>Note:</p>
+<p>This file subject_test.txt Holds the information about the Subjects. </p>
+<p>Based on this there are 9 individual subjects, and they are spread through the 2947.</p>
+
+test:
+
+|INDIVIDUALS|RECORD RANGE|
+|:--:|:---------:|
+| 1 |  NULL | 
+| 2 |  1 - 302  | 
+| 3 |  NULL |
+| 4 |  303 - 619  | 
+| 5 |  NULL | 
+| 6 |  NULL |
+| 7 |  NULL |
+| 8 |  NULL |
+| 9 |  620 - 907  | 
+| 10 |  908 - 1201  | 
+| 11 |  NULL |
+| 12 |  1202 - 1521  | 
+| 13 |  1522 - 1848  | 
+| 14 |  NULL |
+| 15 |  NULL |
+| 16 |  NULL | 
+| 17 |  NULL | 
+| 18 |  1849 - 2212  | 
+| 19 |  NULL | 
+| 20 |  2213 - 2566  | 
+| 21 |  NULL | 
+| 22 |  NULL | 
+| 23 |  NULL | 
+| 24 |  2567 - 2947 | 
+| 25 |  NULL | 
+| 26 |  NULL |
+| 27 |  NULL | 
+| 28 |  NULL | 
+| 29 |  NULL |
+| 30 |  NULL |
+
+<p> </p>
+<p>The Attributes are not labled.</p>
+ <p>  </p>
+ 
+ 
+ 
+ 
+### X_test.txt
+<p>How many rows  are there?</p>
+<p> nrow(test_x)</p>
+<p> 7352</p>
+
+<p>How many columns are there?</p>
+<p> ncol(test_x)</p>
+<p> 561</p>
+
+<p>Lets Look at this data, TEST X</P>
+<p>test_x[c(1:5), c(1:3, 559:561)]</p>
+
+| X | V1 |  V2 | V3 | ... | V559 | V560 | V561 | 
+|----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| 1 | 0.2885845 | -0.02029417 | -0.1329051 |... |  -0.8412468 | 0.1799406 | -0.05862692 | 
+| 2 | 0.2784188 | -0.01641057 | -0.1235202 |... |  -0.8447876 | 0.1802889 | -0.05431672 | 
+| 3 | 0.2796531 | -0.01946716 | -0.1134617 |... |  -0.8489335 | 0.1806373 | -0.04911782 | 
+| 4 | 0.2791739 | -0.02620065 | -0.1232826 |... |  -0.8486494 | 0.1819348 | -0.04766318 | 
+| 5 | 0.2766288 | -0.01656965 | -0.1153619 |... |  -0.8478653 | 0.1851512 | -0.04389225 | 
+
+<p>Note:</p>
+<p>Data from X_test.txt Has 7352 records and 561 attributes.</p>
+<p>Looks like this are the Measurements taken from the 21 individual subjects</p>
+<p>The Attributes are not labled.</p>
+
+<p>  </p>
+### y_test.txt
+<p>How many rows  are there?</p>
+<p> nrow(test_y)</p>
+<p> 7352</p>
+
+<p>  </p> 
+<p>How many columns are there?</p>
+<p> ncol(test_y)</p>
+<p> 1</p>
+
+<p>  </p>
+<p>How many unique values are there?</p>
+<p> unique(test_y[,1])</p>
+<p> 5 4 6 1 3 2</p>
+<p>  </p>
+
+<p>Note:</p>
+<p>Data from y_test.txt has 7352 records and 1 attribute.</p>
+<p>Data has small number of unique values.</p>
+<p>The Attributes are not labled.</p>
+<p>This can be related to the 21 individual subjects</p>
+<p>  </p>
+
+
