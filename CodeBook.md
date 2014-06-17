@@ -82,7 +82,7 @@ Lets start.
 <p>21</p>
 
 
-<p>Summary:</p>
+<p>Note:</p>
 <p>This file subject_train.txt Holds the information about the Subjects. </p>
 <p>Based on this there are 21 individual subjects, and they are spread through the 7352.</p>
 TRAIN:
@@ -224,7 +224,7 @@ TRAIN:
 Looks like this are the lables for X_train.txt, since attribute count from X_train is 561 as well</p>
 <p>  
 </p>
-[https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md](https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md) 
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -343,4 +343,53 @@ Test:
 <p>This can be related to the 9 individual subjects for the activity type</p>
 <p>  </p>
 
+## Summary
+<p>  </p>
+<p>Now that we have seen the data, combining there data sets produce 30 sets of individual producing the complete data set. 
+</p>
+<p>  </p>
 
+<p>Train + Test</p>
+|INDIVIDUALS|RECORD RANGE|SOURCE|
+|:--:|:---------:|:---------|
+| 1 |  1 - 347 | TRAIN |
+| 2 |  1 - 302  | TEST |
+| 3 |  348 - 688 | TRAIN |
+| 4 |  303 - 619  | TEST |
+| 5 |  689 - 990 | TRAIN |
+| 6 |  991 - 1315 | TRAIN |
+| 7 |  1316 - 1623 | TRAIN |
+| 8 |  1624 - 1904 | TRAIN |
+| 9 |  620 - 907  | TEST |
+| 10 |  908 - 1201  | TEST |
+| 11 | 1905 - 2220 | TRAIN |
+| 12 |  1202 - 1521  | TEST |
+| 13 |  1522 - 1848  | TEST |
+| 14 | 2221 - 2543 | TRAIN |
+| 15 | 2544 - 2871 | TRAIN |
+| 16 | 2872 - 3237 | TRAIN |
+| 17 | 3238 - 3605 | TRAIN |
+| 18 |  1849 - 2212  | TEST |
+| 19 | 3606 - 3965 | TRAIN |
+| 20 |  2213 - 2566  | TEST |
+| 21 | 3966 - 4373 | TRAIN |
+| 22 | 4374 - 4694 | TRAIN |
+| 23 | 4695 - 5066 | TRAIN |
+| 24 |  2567 - 2947 | TEST |
+| 25 | 5067 - 5475 | TRAIN |
+| 26 | 5476 - 5867 | TRAIN |
+| 27 | 5868 - 6243 | TRAIN |
+| 28 | 6244 - 6625 | TRAIN |
+| 29 | 6626 - 6969 | TRAIN |
+| 30 | 6970 - 7352 | TRAIN |
+<p>  </p>
+<p> Important Information</p>
+<p>X - Contains the actual measurements of an individual</p>
+<p>Y - Contains the Activity of an indiviual</p>
+<p>Subjects - Are the Actual Individuals in this Data Sets</p>
+<p>Activity Labels - Holds the code and description of each Activity types</p>
+<p>Features - Holds the column description for each Measurements</p>
+
+<p>  </p>
+
+[https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md](https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md) 
