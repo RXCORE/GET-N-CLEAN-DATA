@@ -169,7 +169,7 @@ TRAIN:
 <p>Data from y_train.txt has 7352 records and 1 attribute.</p>
 <p>Data has small number of unique values.</p>
 <p>The Attributes are not labled.</p>
-<p>This can be related to the 21 individual subjects for the activity type</p>
+<p>This can be related to the 21 individual subjects for their activity type</p>
 <p>  </p>
 ### activity_labels.txt
 <p>How many rows  are there?</p>
@@ -340,7 +340,7 @@ Test:
 <p>Data from y_test.txt has 2947 records and 1 attribute.</p>
 <p>Data has small number of unique values.</p>
 <p>The Attributes are not labled.</p>
-<p>This can be related to the 9 individual subjects for the activity type</p>
+<p>This can be related to the 9 individual subjects for their activity type</p>
 <p>  </p>
 
 ## Summary
@@ -391,5 +391,8 @@ Test:
 <p>Features - Holds the column description for each Measurements</p>
 
 <p>  </p>
-
+<p>  </p>
+<p>  </p>
+##  RUN ANALYSIS CODE
+<p>Please go to the link below, this is the part where we do the Analysis part.  Also see run_analysis.r</p>
 [https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md](https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md) 
