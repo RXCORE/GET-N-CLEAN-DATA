@@ -395,4 +395,7 @@ Test:
 <p>  </p>
 ##  RUN ANALYSIS CODE
 <p>Please go to the link below, this is the part where we do the Analysis part.  Also see run_analysis.r</p>
-[https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md](https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO/README.md) 
+[https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO](https://github.com/RXCORE/GET-N-CLEAN-DATA/blob/master/REPO) 
+
+
+
