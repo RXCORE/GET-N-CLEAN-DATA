@@ -66,14 +66,10 @@ setnames(test_x, 1:561, conv_featname);
 # Making vectors to a Data Table
 activity_labels <- data.table(activity_labels);
 
-#train_y <- data.table(train_y);
-#test_y <- data.table(test_y);
 
 #Adding Keys to Data table for activity, train and test y
 activity_labels <- setkey(activity_labels ,"CODE");
 
-#train_y <- setkey(train_y ,"CODE");
-#test_y <- setkey(test_y ,"CODE");
 
 
 
