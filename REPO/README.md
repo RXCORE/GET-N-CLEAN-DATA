@@ -126,7 +126,7 @@ TIDY_TEST <- read.table("STAGING4TEST.txt");
 TIDY_DATA <- rbind(TIDY_TRAIN,TIDY_TEST);
 ###  Set Lables for Measures
 setnames(TIDY_DATA, 6:566, conv_featname);
-#mode(TIDY_DATA[6:566])<- "numeric"
+ 
 
 
 ###  Creating Data Table
