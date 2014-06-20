@@ -1,5 +1,5 @@
-<p> Sample output</p>
-<p> See the entire data at IND_TIDY_DATA.TXT</p>
+<p> Preview output</p>
+<p> See the entire data at [https://raw.githubusercontent.com/RXCORE/GET-N-CLEAN-DATA/master/REPO/IND_TIDY_DATA.txt](https://raw.githubusercontent.com/RXCORE/GET-N-CLEAN-DATA/master/REPO/IND_TIDY_DATA.txt)</p>
 <p>  </p>
 
 <p>  </p>
