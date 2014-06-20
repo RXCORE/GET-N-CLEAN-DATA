@@ -98,8 +98,7 @@ stage1test <- data.table(stage1test);
 ###  Setting keys to CODE
 stage1test <- setkey(stage1test, "CODE");
 
-###  Merge stage 1 test joining Activity lables via CODE.
-### This is to get the description of the type of activity.
+###  Merge stage 1 test joining Activity lables via CODE. This is to get the description of the type of activity.
 stage2test <- merge (stage1test , activity_labels);
 
 ###  Setting keys to ROWNUM
