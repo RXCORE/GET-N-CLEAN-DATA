@@ -1,5 +1,5 @@
 <p> Sample output</p>
-<p> See IND_TIDY_DATA.TXT</p>
+<p> See the entire data at IND_TIDY_DATA.TXT</p>
 <p>  </p>
 
 <p>  </p>
